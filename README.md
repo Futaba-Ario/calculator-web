@@ -10,13 +10,19 @@ npm install
 
 ## 利用方法
 
-1. `index.html` をブラウザで開きます。
-2. 画面上のボタン、もしくはキーボードの数字・演算子・Enter・Backspace・Escで入力できます。
+1. プロジェクトルートで静的サーバーを起動します。
+
+   ```bash
+   npm run serve
+   ```
+
+2. ブラウザで `http://localhost:8080` を開きます。画面上のボタン、もしくはキーボードの数字・演算子・Enter・Backspace・Escで入力できます。
 
 ## スクリプト
 
 | コマンド | 説明 |
 | --- | --- |
+| `npm run serve` | `http-server`で開発用の静的サーバーを起動します。 |
 | `npm test` | Node.js標準テストランナーでユニットテストを実行します。 |
 | `npm run lint` | ESLintで静的解析を行います。 |
 | `npm run format` | Prettierでコードフォーマットをチェックします。 |
